@@ -3,7 +3,7 @@ local HttpService = cloneref(game:GetService('HttpService'))
 local Flags = {}
 local Config, Fetcher = {}, {}
 
-local Fluent = loadstring(game:HttpGet('https://raw.githubusercontent.com/enrithy/Temp/refs/heads/main/recode/shared/main.luau'))()
+local Fluent = loadstring(game:HttpGet('https://raw.githubusercontent.com/RiqWhatever/Amfer/refs/heads/main/src/Amfer.lua'))()
 
 local function get_hub_name()
     local custom_name = getgenv().sets.title
